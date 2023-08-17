@@ -3,12 +3,12 @@ import { View, Text } from 'react-native'
 
 import styles from './nearbyjobs.style'
 
-const Nearbyjobs = () => {
+const Nearbyplayground = () => {
   return (
     <View>
-      <Text>Nearbyjobs</Text>
+      <Text>Nearby Playground</Text>
     </View>
   )
 }
 
-export default Nearbyjobs
+export default Nearbyplayground

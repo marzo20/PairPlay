@@ -3,7 +3,7 @@ import { View, ScrollView, SafeAreaView } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
 
 import { COLORS, icons, images, SIZES } from '../constants';
-import { Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome } from '../components'
+import { Nearbyplayground, Popularplayground, ScreenHeaderBtn, Welcome } from '../components'
 
 const Home =() => {
     const router = useRouter();
@@ -29,9 +29,11 @@ const Home =() => {
                         padding: SIZES.medium
                     }}
                 >
-                    <Welcome />
-                    <Popularjobs />
-                    <Nearbyjobs />
+                    <Welcome 
+                    
+                    />
+                    <Popularplayground />
+                    <Nearbyplayground />
                 </View>
             </ScrollView>
         </SafeAreaView>
